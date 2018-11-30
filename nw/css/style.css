@@ -1,0 +1,717 @@
+html,body{
+	max-height:2600px; 
+	min-width:1500px;
+	padding: 0;
+	margin:0;
+}
+
+body{
+	color:#777777;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #fafafa;
+}
+
+header{
+	background-color: #fff;
+}
+
+p{
+	font-size: 14px;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.main-header{
+position: relative;
+	box-shadow:0 5px 5px 1px #b3b9bb;
+
+	}
+
+
+.clearfix::after /*Должен быть еще ::after */ { 
+	content: "";
+	display: table;
+	clear:both;
+}
+
+
+
+.container{
+	width: 1140px;
+	padding: 0 0;
+	margin: 0 auto;
+}
+
+.main-navigation{
+
+	width: 655px;
+	max-height: 90px;
+	float: right;
+	
+}
+
+.fa-search{
+	position: relative;
+
+	top:13px;
+	
+} 
+
+
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.main-navigation ul{
+	font-size: 0;
+	padding: 0;
+	margin:0;
+	list-style: none;
+	line-height: 90px;
+
+}
+
+.main-navigation a{
+	display: block;
+	text-decoration: none;
+	color: #777777; 
+	padding: 0 30px;
+}
+
+.main-navigation li a:hover{
+	color: #000;
+}
+
+.logo{	
+	
+	max-width: 435px;
+	min-height: 90px;
+	vertical-align: top;
+	position: absolute;
+	top: 25px;
+}
+
+
+.slider{ 
+
+	
+
+	background: #fff url("../img/bg1.jpg") no-repeat center top;
+	
+		overflow: hidden;
+}
+
+.slidertext1{
+	text-align: center;
+	margin:270px auto;
+	line-height: 24px;
+	
+
+}
+
+.block{
+
+
+	display: inline-block;
+width: 700px;
+max-height: 55px;
+	background-color: #000;
+}
+
+.lian{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-size: 48px;
+	color: #fff;
+	
+
+
+}
+
+.slider p{
+	font-size: 18px;
+	color:#000;
+	
+}
+
+.features{
+width: 1140px;
+	margin:35px auto;
+}
+
+.rect1{
+outline: 1px solid #e1e1e1;
+
+
+}
+
+
+.rect4{
+	width: 30px;
+	display: inline-table;
+	outline: 1px solid #e1e1e1;
+transform: rotate(110deg);
+}
+
+.rect5{
+
+
+	outline: 1px solid #e1e1e1;
+
+
+}
+
+.center-navigation{
+	text-align: center;
+}
+.center-navigation ul{
+	padding: 0;
+	margin:0;
+	font-size: 0;
+	list-style: none;
+	line-height: 60px;
+}
+
+.center-navigation li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+
+}
+
+.center-navigation a{
+	display: block;
+	text-decoration: none;
+	color: #777777; 
+	padding: 0 25px;
+
+}
+
+
+.center-navigation a:hover{
+	color: #000;
+}
+
+.photos{
+
+margin-right: 30px;
+}
+
+.img-column{
+	float: left;
+	
+
+	margin-bottom:35px;
+}
+
+
+
+.img-column:last-child{  
+	/*	margin-right: 0;*/
+}
+.main-center{
+	
+	margin-bottom: 70px;
+}
+
+
+.main-footer{
+box-shadow:0 -10px 5px -6px #b3b9bb;
+min-width: 1500px;
+min-height:300px;
+}
+
+.footer-content{
+	
+	margin-top:65px;
+	padding-top: 60px;    /* Внутренние отступы */
+	padding-bottom: 45px;
+}
+
+.second-logo {
+	margin: 0px auto 40px;
+	vertical-align: top;
+text-align: center;
+	
+}
+
+
+
+.copyright{
+	font-size: 14px;
+	text-align: center;
+margin: 38px auto 48px;
+}
+
+.fa{
+
+	line-height: 60px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #777777;
+
+	
+}
+
+.footer-social{
+	text-align: center;
+
+}
+
+.social{
+	
+	
+}
+
+.social a{
+	padding: 0 30px;
+	display: inline-block;
+}
+
+.footer-bold{
+	font-weight: bold;
+	color: #000;
+}
+
+
+/*ABOUT*/
+
+.heading-about{
+	
+	overflow: hidden;
+	background: #f0f0f2 url("../img/heading-about.jpg") no-repeat center top;
+	margin-bottom: 72px;
+	max-height: 350px;
+}
+
+
+.block2 .About-head{
+	display: inline-block;
+	background-color: #000;
+	width: 600px;
+	height:55px ;
+	text-align: center;
+	color: #fff;
+	
+	font-size: 48px;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+
+.About{
+	margin-top: 115px;
+	margin-bottom: 120px;
+	
+}
+
+.About p{
+
+	color:#000;
+	font-size: 18px;
+	text-align: none;
+}
+
+.We{
+	float: left;
+	padding-right: 55px;
+}
+
+.Aboutus{
+	margin-bottom: 26px;
+}
+
+.History h3{
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 40px;
+}
+
+.History p{
+	font-size: 14px;
+	line-height: 30px;
+text-transform: lowercase;
+
+}
+
+
+.History ul{
+	font-size: 0;
+
+
+}
+
+.History li{
+	color: #000;
+	text-transform: capitalize;
+	list-style: none;
+	font-size: 16px;
+	padding-top: 45px; 
+
+}
+
+.History li:first-child{
+	padding-top: 0;
+}
+
+
+.awersome{
+	text-align: center;
+}
+
+.awersome-text{
+		width: 615px;
+		margin:40px auto;
+}
+
+.awersome p{
+	font-size: 14px;
+}
+
+.awersome h3{
+
+	font-size: 30px;
+	color: #000;
+	font-weight: normal;
+}
+
+.Ourteam{
+	margin-bottom: 70px;
+
+}
+
+.Ourteam-item {
+
+border: 1px solid #fff;
+background-color: #fff;
+	min-width: 360px;
+	min-height: 630px;
+	float: left;
+	margin-right:25px;
+}
+
+
+.Ourteam-item:last-child{
+	margin-right: 0;
+
+}
+
+
+.Ourteam-item p{
+	width: 280px;
+	font-weight: lighter;
+}
+
+.Ourteam-item h3{
+margin-top: 0;
+	font-size: 24px;
+	font-weight: lighter;
+	color: #000;
+}
+
+
+
+.Ourteam-item b{
+	font-size: 16px;
+}
+
+.Ourteam-item-padd {
+	padding: 35px;
+}
+
+
+/* Portfolio */
+
+
+.heading-portfolio {
+	overflow: hidden;
+	background: #f0f0f2 url("../img/heading-protfolio.jpg") no-repeat center top;
+	
+	max-height: 350px;
+}
+
+
+
+.buttons-body{
+
+	height: 60px;
+	background-color: #fff;
+	overflow: hidden;	
+
+margin-bottom: 70px;
+}
+
+
+.bg1{background: #fff;}
+
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	color: #000;
+	font-weight: bold;
+	padding:24px 48px ;
+	background-color: #fff;
+
+	cursor: pointer;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #ebebeb;
+	border-top: none;
+	border-bottom: none;
+	
+
+}
+
+.btn:last-child{
+	float: right;
+}
+
+
+.Portfolio{
+
+	height: 830px;
+	border: 1px solid red;
+}
+
+.Project{
+	
+}
+
+.Portfolio-text{
+
+	float: left;
+	width: 552px;
+
+}
+
+
+.Portfolio-text h1{
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: #000;
+}
+
+.Portfolio-text b{
+
+	font-size: 14px;
+	color: #555555;
+	
+	
+}
+
+
+.Portfolio-text p{
+	font-size:14px ;
+	font-weight: normal;
+	padding-top: 20px;
+	line-height: 30px;
+	
+}
+
+.social2{
+	display: inline-block;
+	
+	border-radius: 4px;
+	background-color: #e1e1e1;
+
+
+}
+
+.social2 a{
+	display: inline-block;
+	padding:0px 10px;
+	margin-right: 20px;
+}
+.Project{
+	
+	line-height: 36px;
+}
+
+
+.Portfolio-photos{
+	float: right;
+	margin-top: 30px;
+}
+
+
+.Project p{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 36px;
+
+}
+
+.Project b{
+	color: #000;
+	font-size: 16px;
+}
+.social-block{
+
+margin-top: 50px;
+
+}
+ .Share {
+	display: inline-table;
+	padding: 20px 18px 20px 25px;
+	text-decoration: none;
+	background-color: #707070;
+	color: white;
+	border-radius: 3px ;
+}
+
+
+.Share-a::before{
+	
+	position: relative;
+	font-size: 12px;
+	color: white;
+	right: 90px;
+	}
+.Realyted{
+	
+	text-align: center;
+	height: 480px;
+}
+
+.Realyted  b{
+letter-spacing: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: lighter;
+	color: #000;
+	
+}
+
+.Realyted p{
+	margin: 35px auto;
+	width: 570px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.Realyted-photos img{
+	float: right;
+	margin-right: 20px;
+}
+
+/* CONTACT */
+
+.info{
+	height: 450px;
+margin-bottom: 75px;
+}
+
+
+
+.office{
+	float: left;
+	border: 1px solid red;
+}
+.rect2{
+	outline: 1px solid #000;
+	width: 59px;
+}
+.office h3{
+	font-size: 30px;
+	font-weight: lighter;
+	letter-spacing: 20px;
+	color: #000;
+}
+
+.office p{
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+
+.map{
+	background: #e7e7e7 url("../img/map.jpg") no-repeat center top;
+	height: 360px;
+	overflow: hidden;
+}
+
+.Address{
+	background-color: #fff;
+	height: 130px;
+	width: 325px;
+	border-radius: 2px;
+	padding: 28px 50px;
+	text-align: center;
+	margin: 100px auto;
+	
+}
+
+.Address b{
+	
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+
+}
+
+.Address p{
+	font-weight: lighter;
+font-size: 14px;
+	
+}
+.val{
+	background-color: #fafafa;
+	min-height: 432px;
+	border: none;
+}
+
+.vall{
+ padding-left: 1px;
+}
+.number p{
+	
+}
+
+.send{
+	width: 740px;
+	float: right;
+	border: 1px solid red;
+
+}
+
+.appointment-form input{
+	float: left;
+	margin-top: 10px;
+outline: none;
+	font-size: 15px;
+	width:360px;
+color:#777;
+font-weight: normal;
+line-height: 40px;
+margin-right: 22px;
+}
+
+.appointment-form input:nth-child(2n){
+	margin-right: 0;
+}
+.appointment-form input:last-child{
+	width: 755px;
+	height: 150px;
+
+}
+
+.btn{
+	margin-top: 30px;
+	margin-right: 550px;
+	padding: 14px 50px;
+	background-color: #000;
+	color: #fff;
+	line-height: 21px;
+}
