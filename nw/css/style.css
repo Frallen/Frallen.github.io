@@ -616,7 +616,8 @@ margin-bottom: 75px;
 
 .office{
 	float: left;
-	border: 1px solid red;
+	width: 350px;
+	
 }
 .rect2{
 	outline: 1px solid #000;
@@ -629,12 +630,23 @@ margin-bottom: 75px;
 	color: #000;
 }
 
+.office b{
+	font-size: 15px;
+	color: #000;
+}
+
 .office p{
 	font-size: 16px;
 	font-weight: lighter;
-	line-height: 30px;
+	text-transform: unset;
+	
+	display: inline-block;
 }
 
+.numb{
+	font-weight: bold;
+	color: #555;
+}
 
 .map{
 	background: #e7e7e7 url("../img/map.jpg") no-repeat center top;
@@ -652,6 +664,7 @@ margin-bottom: 75px;
 	margin: 100px auto;
 	
 }
+
 
 .Address b{
 	
@@ -680,13 +693,14 @@ font-size: 14px;
 }
 
 .send{
-	width: 740px;
+	width: 752px;
 	float: right;
-	border: 1px solid red;
+
 
 }
 
 .appointment-form input{
+	border: 1px solid #ebebeb;
 	float: left;
 	margin-top: 10px;
 outline: none;
@@ -702,9 +716,13 @@ margin-right: 22px;
 	margin-right: 0;
 }
 .appointment-form input:last-child{
-	width: 755px;
+	width: 740px;
 	height: 150px;
+}
 
+.appointment-form input:focus{
+	border-left-width: 5px;
+	border-color: #afafaf;
 }
 
 .btn1{
@@ -714,4 +732,9 @@ margin-right: 22px;
 	background-color: #000;
 	color: #fff;
 	line-height: 21px;
+	width: 250px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
 }
+
