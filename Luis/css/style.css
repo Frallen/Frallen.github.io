@@ -1,0 +1,125 @@
+html,body{
+	max-height: 5932px;
+	min-width: 1366px;
+	padding: 0;
+	margin:0;
+}
+
+header{
+	text-transform: uppercase;
+	height: 750px;
+	background: #dedede url("../img/guy.jpg") no-repeat center top; 
+}
+
+body{
+	font-family: 'Asap', sans-serif;
+	color: #4d4d4d;
+}
+
+p{
+	font-size: 16px;
+	
+}
+
+
+.container{
+	padding:0;
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-navigation{
+
+	width: 535px;
+	float: right;
+	max-height: 90px;
+	margin-top: -20px;
+	margin-bottom: 165px;
+}
+
+.main-navigation ul{
+
+	font-size: 0;
+	list-style: none;
+	padding: 0;
+	margin:0;
+
+}
+.main-navigation li{
+
+	vertical-align: top;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.main-navigation a{
+	text-decoration: none;
+	display: block;
+
+	color:#4d4d4d;
+	padding: 0 40px;
+}
+
+.main-navigation a:last-child{
+	padding-right:0;
+}
+
+
+.main-navigation a:hover{
+text-decoration: underline;
+text-underline-position: under;
+
+}
+
+.logo{
+	
+	vertical-align: top;
+	max-width: 500px;
+	
+	max-height: 90px;
+	position: relative;
+	top:30px;
+}
+
+.center-header{
+	border: 1px solid red;
+	display:block;
+	font-family: "Asap Medium",sans-serif;
+}
+
+.center-header h1{
+	
+	font-size: 85px;
+
+}
+.center-header p{
+	
+	color: #c6c6c6;
+	font-size: 22px;
+}
+
+.center-header a{
+	margin-top: 28px;
+	margin-right: 20px;
+	padding: 20px 30px;
+	background-color: #dedede;
+	border: 1px solid #4d4d4d;
+	text-decoration: none;
+	color: #4d4d4d;
+}
+.center-header a:last-child{
+	padding:20px 46px;
+}
+
+
+.center-header a:hover{
+	background-color: #fff;
+	border: none;
+	box-shadow: 5px 5px 10px #c6c6c6; 
+}
