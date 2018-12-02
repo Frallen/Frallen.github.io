@@ -88,14 +88,14 @@ text-underline-position: under;
 }
 
 .center-header{
-	border: 1px solid red;
-	display:block;
+	
+
 	font-family: "Asap Medium",sans-serif;
 }
 
 .center-header h1{
 	
-	font-size: 85px;
+	font-size: 90px;
 
 }
 .center-header p{
@@ -123,3 +123,100 @@ text-underline-position: under;
 	border: none;
 	box-shadow: 5px 5px 10px #c6c6c6; 
 }
+
+
+.about{
+	height: 700px;
+
+}
+
+.rect1{
+	outline: 3px solid #7a7a7a;
+	width: 60px;
+}
+
+.aboutme{
+	float: left;
+	margin-top: 175px;
+	width: 532px;
+}
+
+.boH{
+	font-size: 46px;
+	font-weight: bold;
+	line-height: 49px;
+		font-family: "Asap bold",sans-serif;
+	color: #7c7c7c;
+	text-transform: uppercase;
+}
+
+.aboutme p{
+	width: 467px;
+	line-height: 26px;
+	color: #4d4d4d;
+	padding-bottom: 35px;
+}
+
+.aboutme a{
+	padding:18px 47px;
+	border: 1px solid #4d4d4d;
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+.aboutme a:hover{
+	background-color: #fff;
+	border: none;
+	box-shadow: 5px 5px 10px #c6c6c6; 
+}
+
+.plan{
+	margin-top: 110px;
+	float: right;
+}
+
+.services{
+	background-color: #dedede;
+	height: 693px;
+	text-align: center;
+}
+
+
+
+ .se{
+ 	border: 1px solid red;
+ 	display:inline-block; 
+	margin-top: 140px;
+}
+
+
+.rect2{
+
+	width: 60px;
+	outline: 2px solid #7a7a7a;
+}
+
+.services-item{
+
+	
+	border: 1px solid red;
+	text-align: center;
+	float: left;
+	width:155px; 
+	height:120px;
+	margin-right: 120px;
+
+}
+
+.services-block{
+	display: block;
+	position: relative;
+	margin: 55px auto 120px;
+	border: 1px solid red;
+	width: 1031px;
+	height: 350px;
+	font-size: 24px;
+	font-family: "Asap Medium",sans-serif;
+}
+.services-item:last-child{
+	margin-right: 0;}
