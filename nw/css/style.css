@@ -1,6 +1,6 @@
 html,body{
 	max-height:2600px; 
-	max-width:1500px;
+	min-width:1500px;
 	padding: 0;
 	margin:0;
 }
