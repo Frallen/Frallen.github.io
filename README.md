@@ -1,6 +1,6 @@
 # MY PORTFOLIO
 Now i have 2 projcects:
 
-<a href="Frallen.github.io/nw">Nw</a>
+Frallen.github.io/nw"
 
-<a href="Frallen.github.io/Luis">Luis</a>
+Frallen.github.io/Luis"
