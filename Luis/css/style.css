@@ -184,39 +184,112 @@ text-underline-position: under;
 
 
  .se{
- 	border: 1px solid red;
- 	display:inline-block; 
-	margin-top: 140px;
+
+ 	margin-top: 140px;
+ 	display: inline-block;
+ 	margin-bottom: 43px;
+	
 }
 
 
 .rect2{
 
+position: relative;
+top: 120px;
+left:550px;
 	width: 60px;
 	outline: 2px solid #7a7a7a;
 }
 
-.services-item{
+.services-block{
+	border: 1px solid red;
+	margin:0px auto 120px;
+	display: inline-block;
 
 	
-	border: 1px solid red;
-	text-align: center;
-	float: left;
-	width:155px; 
-	height:120px;
-	margin-right: 120px;
-
 }
 
-.services-block{
+.services-item{
+	float: left;
+	width: 160px;
+	height: 122px;
+	margin-right: 200px;
+	
+	
+}
+
+.services-item:nth-child(3n){margin-right: 0;}
+
+.services-name{
 	display: block;
-	position: relative;
-	margin: 55px auto 120px;
-	border: 1px solid red;
-	width: 1031px;
-	height: 350px;
 	font-size: 24px;
+	color: #4d4d4d;
 	font-family: "Asap Medium",sans-serif;
 }
-.services-item:last-child{
-	margin-right: 0;}
+
+.skill{
+	height: 767px;
+	text-align: center;
+}
+
+.skill img{
+	margin-top: 60px;
+
+}
+
+.portfolio{
+
+	text-align: center;
+	height: 1096px;
+	background-color: #f6f6f6;
+}
+
+.portfolio-item{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.portfolio a{
+	margin-top: 28px;
+	margin-right: 20px;
+	padding: 20px 50px;
+	background-color: #dedede;
+	border: 1px solid #4d4d4d;
+	text-decoration: none;
+	color: #4d4d4d;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.portfolio a:hover{
+	background-color: #fff;
+	border: none;
+	box-shadow: 5px 5px 10px #c6c6c6; 
+}
+
+.Testimonials {
+	text-align: center;
+	height: 711px;
+
+}
+
+.Testimonials-text{
+	text-align: none;
+	display: block;
+	padding: 80px 70px 100px 130px;
+	border: 1px solid #212121;
+}
+.Testimonials-text img{
+		float: left;
+		margin-right: 30px;
+}
+.Testimonials-text p {
+	font-size: 16px;
+	color: #949494;
+	width: 565px;
+}
+
+.Testimonials-text b{
+font-size: 30px;
+}
