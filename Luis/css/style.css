@@ -21,6 +21,10 @@ p{
 	
 }
 
+div{
+	box-sizing: border-box;
+}
+
 
 .container{
 	padding:0;
@@ -89,23 +93,25 @@ text-underline-position: under;
 
 .center-header{
 	
-
+display: block;
 	font-family: "Asap Medium",sans-serif;
 }
 
 .center-header h1{
-	
+	text-transform: capitalize;
 	font-size: 90px;
+	margin-bottom: 0;
 
 }
 .center-header p{
-	
+	margin-top: 0;
 	color: #c6c6c6;
 	font-size: 22px;
 }
 
 .center-header a{
-	margin-top: 28px;
+	display: inline-block;
+	margin-top: 30px;
 	margin-right: 20px;
 	padding: 20px 30px;
 	background-color: #dedede;
@@ -202,20 +208,26 @@ left:550px;
 }
 
 .services-block{
-	border: 1px solid red;
+	
 	margin:0px auto 120px;
 	display: inline-block;
-
-	
+	height: 340px;
+	width: 1000px;
 }
 
 .services-item{
-	float: left;
+	
 	width: 160px;
 	height: 122px;
-	margin-right: 200px;
+	float: left;
+
+	margin-right: 250px;
 	
 	
+}
+
+.item2{
+	margin-top: 80px;
 }
 
 .services-item:nth-child(3n){margin-right: 0;}
@@ -242,6 +254,7 @@ left:550px;
 	text-align: center;
 	height: 1096px;
 	background-color: #f6f6f6;
+
 }
 
 .portfolio-item{
@@ -250,10 +263,11 @@ left:550px;
 }
 
 .portfolio a{
-	margin-top: 28px;
+	
+	margin-top: 20px;
 	margin-right: 20px;
 	padding: 20px 50px;
-	background-color: #dedede;
+	background-color: #f6f6f6;
 	border: 1px solid #4d4d4d;
 	text-decoration: none;
 	color: #4d4d4d;
@@ -275,8 +289,9 @@ left:550px;
 }
 
 .Testimonials-text{
-	text-align: none;
-	display: block;
+width: 960px;
+height: 350px;
+	display:inline-block; 
 	padding: 80px 70px 100px 130px;
 	border: 1px solid #212121;
 }
@@ -285,11 +300,70 @@ left:550px;
 		margin-right: 30px;
 }
 .Testimonials-text p {
+	
+text-transform: uppercase;
+
 	font-size: 16px;
 	color: #949494;
-	width: 565px;
+	
+}
+.Testimonials-text i{
+
+	margin-right: 55%;
 }
 
 .Testimonials-text b{
+	
+float: left;
+	display: block;
 font-size: 30px;
+}
+
+.Funfact{
+	height: 302px;
+	background-color: #f6f6f6;
+}
+
+.Funfact-block{
+	margin:50px 55px;
+	display: inline-block;
+	height: 200px;
+	width: 1070px;
+border: 1px solid red;
+}
+
+.Funfact-item{
+		
+	float: left;
+	margin-right: 110px;
+	width: 180px;
+	height: 170px;
+	text-align: center;
+}
+
+
+.Funfact-item:nth-child(4n){
+	margin-right: 0;
+}
+.Funfact-item:nth-child(3n+2){
+	margin-top: 20px;
+}
+
+.Funfact-name {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+}
+
+.Funfact-p{
+	text-align: center;
+	font-size: 22px;
+	color: #454545;
+	margin-top: 16px;
+	text-transform: capitalize;
+}
+
+.nothing-bg{
+	background-color: #fff;
+	height: 155px;
 }
