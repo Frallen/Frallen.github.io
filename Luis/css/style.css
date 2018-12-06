@@ -302,18 +302,24 @@ height: 350px;
 .Testimonials-text p {
 	
 text-transform: uppercase;
-
+text-align: left;
 	font-size: 16px;
 	color: #949494;
+	line-height: 20px;
 	
 }
 .Testimonials-text i{
 
-	margin-right: 55%;
+	display: inline-block;
+	margin-top: 10px;
+	
+	position: relative;
+	right: 280px;
+	color: #474747;
 }
 
 .Testimonials-text b{
-	
+	text-transform: uppercase;
 float: left;
 	display: block;
 font-size: 30px;
@@ -327,9 +333,9 @@ font-size: 30px;
 .Funfact-block{
 	margin:50px 55px;
 	display: inline-block;
-	height: 200px;
+	height: 180px;
 	width: 1070px;
-border: 1px solid red;
+
 }
 
 .Funfact-item{
@@ -346,8 +352,16 @@ border: 1px solid red;
 	margin-right: 0;
 }
 .Funfact-item:nth-child(3n+2){
-	margin-top: 20px;
+	margin-top: 21px;
 }
+.Funfact-item:nth-child(3n+3){
+	margin-top: 23px;
+}
+.Funfact-item:nth-child(3n+4){
+	margin-top: 15px;
+}
+
+
 
 .Funfact-name {
 	display: block;
@@ -367,3 +381,112 @@ border: 1px solid red;
 	background-color: #fff;
 	height: 155px;
 }
+
+.main-footer{
+	
+	text-align: center;
+
+	background: url("../img/contactbg.jpg") no-repeat center top/cover;
+	height: 787px;
+
+}
+
+.sp{
+	color: #fff;
+}
+
+.Sayhi{
+
+	width: 780px;
+	margin:0 auto;
+	
+}
+
+.Sayhi input{
+	display: inline-block;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 30px;
+	width: 373px;
+	height: 58px;
+}
+
+.Sayhi input:last-child{
+	width: 770px;
+	height: 208px;
+}
+
+.send{
+	width: 125px;
+	height: 50px;
+	background-color: #fff;
+	font-size: 16px;
+	color: #4d4d4d;
+	font-family: "Asap Medium",sans-serif;
+	
+}
+
+.fa-paper-plane:before{
+	position: relative;
+	right: 40px;
+}
+
+.rect3{
+	margin-top: 56px;
+	outline: 1px solid #fff;
+}
+
+
+
+.copyright{
+	
+	margin:0px auto;
+	position: relative;
+	top: 30px;
+	width: 247px;
+	color: #fff;
+	font-size: 16px;
+	
+}
+
+.sochial{
+	
+position: relative;
+top: 40px;
+	float: left;
+	
+}
+.sochial a{
+	display: inline-block;
+	text-decoration: none;
+	color: #4d4d4d;
+	background-color: #fff;
+margin-right: 9px;
+	font-size: 16px;
+}
+.sochial a:hover{
+	background-color: #0084b4;
+	color: #fff;
+	border-radius: 1px;
+}
+
+.fa{
+	width: 27px;
+	height: 27px;
+}
+
+.fa-arrow-up{
+	width: 45px;
+	height: 40px;
+	
+	background-color:#fff;
+	color: #4d4d4d;
+	
+
+float: right;
+margin-right: 30px;
+margin-top: -200px;
+font-size: 24px;
+display: block;
+}
+
