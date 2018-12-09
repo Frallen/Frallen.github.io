@@ -1,0 +1,151 @@
+html,body{
+	min-width: 1500px;/*ПИСАТЬ ЛУЧШЕ МИНВИДТХ */
+	height: 7770px;
+	padding: 0;
+	margin:0;
+}
+
+body{
+
+}
+
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+.container{
+	width: 1170px;
+
+	margin:0 auto;
+
+}
+
+
+p{
+	font-family: 'Lato regular', sans-serif;
+	color: #8c8f94;
+}
+
+
+header{
+	
+	background: url("..//img/headerbg.jpg") no-repeat center top;
+	height:1000px;
+}
+
+
+.main-navigation{
+	font-family: 'Lato', sans-serif;
+border: 1px solid red;
+	height: 70px;
+	padding-top: 60px;
+	margin-bottom: 120px;
+}
+
+.main-navigation ul{
+	padding: 0;
+	font-size: 0;
+	margin:0;
+	list-style: none;
+
+}
+
+.Right-menu{
+	float:right;
+}
+
+.Left-menu{
+	float:left;
+}
+
+.main-navigation li{
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: top;
+	
+}
+
+
+.main-navigation a{
+	display: block;
+	padding: 0 40px;
+	color:#26272d;
+	text-decoration: none;
+}
+
+.main-navigation a:hover{
+	color:#b5b5b6;
+}
+
+#GetApp{
+	margin-top: -15px;
+	background: #267df4;
+	color: #fff;
+	padding: 14px 24px 14px 48px;
+	border-radius: 50px;
+}
+
+.fa-apple::before{
+	position: relative;
+	right: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.fa-bars{
+	position: relative;
+	right: 380px;
+	font-size: 20px;
+	color: #000;
+}
+
+.Logo{
+	text-transform: uppercase;
+	font-size: 20px;
+	color:#3e3f45; 
+	text-align: center;
+	position: relative;
+	top:-40px;
+
+}
+
+.bold{
+	font-weight: bold;
+	color: #000;
+}
+
+.Whats{
+	text-align: center;
+}
+
+.Whats h1{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 62px;
+	text-align: center;
+}
+
+.Whats p{
+	text-align: center;
+	width: 780px;
+	font-size: 20px;
+	margin:0 auto;
+	margin-bottom: 55px;
+}
+
+.Whats a{
+	padding: 18px 47px 18px 67px;
+	border: 1px solid #dddfe1;
+	text-decoration: none;
+	color: #26272d;
+	border-radius: 50px;
+	font-size: 16px;
+	
+}
+
+.fa-play::before{
+	position: relative;
+	right: 160px;
+}
