@@ -25,7 +25,7 @@ body{
 
 
 p{
-	font-family: 'Lato regular', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #8c8f94;
 }
 
@@ -39,7 +39,7 @@ header{
 
 .main-navigation{
 	font-family: 'Lato', sans-serif;
-border: 1px solid red;
+
 	height: 70px;
 	padding-top: 60px;
 	margin-bottom: 120px;
@@ -85,7 +85,7 @@ border: 1px solid red;
 	background: #267df4;
 	color: #fff;
 	padding: 14px 24px 14px 48px;
-	border-radius: 50px;
+	border-radius: 21px;
 }
 
 .fa-apple::before{
@@ -110,7 +110,6 @@ border: 1px solid red;
 	position: relative;
 	left: 100px;
 	text-align: center;
-	border: 1px solid red;
 
 }
 
@@ -152,3 +151,167 @@ border: 1px solid red;
 	position: relative;
 	right: 160px;
 }
+
+.features{
+	
+	height: 600px;
+	margin: 120px auto;
+margin-bottom: 40px;
+}
+
+.fea{
+width: 540px;
+
+}
+.fea p{
+	font-size: 18px;
+}
+
+
+.fea h4{
+	font-weight: lighter;
+	font-size: 26px;
+	font-family: "Lato",sans-serif;
+
+}
+
+.left{
+	float: left;
+	padding-left: 35px;
+}
+
+.right{
+	padding-right: 35px;
+	float:right;
+}
+
+.rect1{
+	outline: 1px solid #f4f4f4;
+	position: relative;
+	top: 520px;
+
+}
+
+.iphonefeatures{
+	
+	
+	background: #fff url("../img/iPhone6fe.jpg") no-repeat center top;
+	height: 900px;
+}
+
+.block-features{
+	width: 470px;
+position: relative;
+top: 220px;
+left: 700px;
+}
+
+
+
+.block-features b{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 42px;
+	
+}
+
+.block-features p{
+	font-size: 20px;
+}
+
+.P-margin1{
+	margin-top:75px; 
+}
+.P-margin2{
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.block-features a{
+	border-radius: 21px;
+	text-decoration: none;
+	font-size: 16px;
+	color:#26272d;
+
+	font-family: "Lato",sans-serif;
+	border: 1px solid #e9e9ea;
+}
+
+.block-features a:hover{
+	color: #fff;
+	border: 1px solid #267df4;
+	background-color: #267df4;
+}
+
+.try{
+	padding: 14px 78px 14px 26px;
+}
+
+.learn{
+	padding: 14px 30px;
+}
+
+.fa-arrow-right::before{
+	position: relative;
+ right: 40px;
+ color: #fff;
+}
+
+.everywere{
+	height: 900px;
+	background: #fff url("../img/World.jpg") no-repeat center top;
+	
+	
+}
+
+.part{
+	left:0;
+
+}
+
+
+.block-features img{
+	margin-right: 26px;
+	
+}
+
+.screens{
+	height: 1750px;
+	background: #f5f5f8 url("../img/Screens.jpg") no-repeat center top;
+	
+	
+	
+}
+
+.interface {
+text-align: center;
+	
+
+
+}
+
+.interface b{  
+	
+font-family: "Varela Round",sans-serif;
+	font-size: 42px;
+	
+}
+
+.rect2{
+	width: 50px;
+	outline: 1px solid #267df4;
+	display: block;
+	position: relative;
+	top:45px;
+	left: 560px;
+}
+
+.interface p{
+	font-family: "Lato",sans-serif;
+	font-weight: bolder;
+	margin-top: 90px;
+	font-size: 12px;
+	color: #8c8f94;
+	
+}
+
+
