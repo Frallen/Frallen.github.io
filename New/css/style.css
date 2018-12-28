@@ -4,12 +4,9 @@ html,body{
 	padding: 0;
 	margin:0;
 }
-
 body{
-	
+	font-family: "Lato",sans-serif;
 }
-
-
 .clearfix::after{
 	content: "";
 	display: table;
@@ -345,11 +342,13 @@ font-family: "Varela Round",sans-serif;
 .Form-email input{
 	border-radius: 25px;
 	border: 1px solid #cbcbce;
+
 	padding: 18px 300px 18px 26px;
 	font-weight: bold;
 	font-size: 16px;
 	font-family: "Lato",serif;
 	outline: none;
+	box-sizing: border-box;
 }
 
 .download-p{
@@ -371,10 +370,9 @@ font-family: "Varela Round",sans-serif;
 	cursor: pointer;
 	display: inline-block;
 
-	font-family:"Lato", sans-serif; 
-	position: relative;
-	top: -53px;
-	left: 173px;
+
+
+	
 }
 
 
@@ -447,11 +445,6 @@ font-family: "Varela Round",sans-serif;
 .customers-img img:last-child{
 	float: right;
 }
-.customers-img img:nth-child(2n){
-	
-}
-
-
 
 
 .customers-container b{
@@ -465,4 +458,263 @@ font-family: "Varela Round",sans-serif;
 	margin-top: 35px;
 
 	color: #f2bc3b;
+}
+
+.plan{
+	height: 900px;
+	background-color: #f4f4f5;
+}
+
+.plan-left{
+	width: 370px;
+	float: left;
+	margin-right: 100px;
+}
+
+.plan-left b{
+	font-family: "Varela Round",sans-serif;
+	font-size: 42px;
+}
+
+
+.youare{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-family: "Lato",sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #26272d;
+
+}
+
+.borderchoose{
+	border:1px solid #cfd0d1;
+	display: inline-block;
+	width: 260px;
+	height: 50px;
+	border-radius: 25px;
+
+}
+
+
+.status1{
+	position: relative;
+	top:15px;
+	left: 2px;
+	text-decoration: none;
+	border-radius: 21px;
+	padding: 14px 24px;
+	background: #fff;
+	color: #26292c;
+	font-size: 16px;
+}
+
+.status2{
+	position: relative;
+	top:15px;
+	left: 15px;
+	text-decoration: none;
+	padding: 14px 25px;
+	background: #f4f4f5;
+	color: #b5b5b7;
+	font-size: 16px;
+}
+
+
+
+
+
+
+.havebig{
+	font-size: 14px;
+
+}
+.lets{
+	color: #267df4;
+	font-size: 14px;
+}
+
+.P-margin2{
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+.plan-left,.starterpro{
+	margin: 160px 0;
+}
+.starterpro{
+	float: right;
+	width: 670px;
+	
+}
+
+.starter,.pro{
+	border-radius: 10px;
+	text-align: center;
+}
+
+.starter{
+	height: 550px;
+	width: 340px;
+	background-color: #fff;
+	box-shadow: 10px 10px 8px 10px #d8d9db;
+	float: left;
+}
+
+.pro{
+	margin-top: 20px;
+	height: 510px;
+	width: 330px;
+	background-color: #ebebed;
+	float: right;
+	
+}
+
+
+.Chips-head{
+	margin-top: 60px;
+	font-family: "Lato",sans-serif;
+	font-size: 32px;
+	font-weight: lighter;
+	color: #26272d;
+}
+
+.Chips-head2{
+	margin-top:40px;
+	font-family: "Lato",sans-serif;
+	font-size: 32px;
+	font-weight: lighter;
+	color: #26272d;
+}
+
+.price{
+	margin-top: -28px;
+	padding: 10px 14px;
+	font-family: "Lato",sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	border: 1px solid #d4d4d5;
+	border-radius: 14px;
+	display: inline-block;
+}
+
+
+.Chips-gray{
+	font-family:"Lato", sans-serif;
+	font-size: 20px;
+	color: #8c8f94;
+	margin: 56px auto;
+	width: 172px;
+}
+
+.Chips{
+	font-family:"Lato", sans-serif;
+	font-size: 16px;
+	color: #26292c;
+}
+
+
+.fa-check::before{
+	color: #6fc754;
+	padding-right: 10px
+	
+}
+
+
+.getstarted{
+	margin-top: 55px;
+
+	text-decoration: none;
+	padding:17px 67px;
+	background-color: #267df4;
+	color: #fff;
+	border-radius: 21px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.makemeapro{
+	margin-top: 20px;
+	text-decoration: none;
+	padding:15px 50px;
+	background-color: #ebebed;
+	border:1px solid #267df4;
+	color: #267df4;
+	border-radius: 21px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.footer{
+	height: 900px;
+}
+
+.footer-left{
+	float: left;
+	width: 270px;
+	border: 1px solid red;
+	margin-top: 90px;
+}
+.footer-right{
+	float: right;
+	display: inline-block;
+	margin-top: 90px;
+
+}
+
+.Getsend{
+	margin:90px auto;
+	text-align: center;
+
+}
+
+.promise{
+	
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.rect3{
+	outline: 1px solid #f4f4f4;
+	margin-top: 83px;
+
+}
+
+.footer-social h3{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #26272d;
+	margin-top: 
+}
+
+.footer-social p{
+	text-align: left;
+	font-size: 14px;
+}
+
+.links a{
+	text-decoration: none;
+	color: #bdbec0;
+	margin-right: 26px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.appstore-footer{
+	border-radius: 5px;
+
+	margin-left: -20px;
+}
+
+.donlfoot::before{
+	position: relative;
+	left:20px;
+	top:15px;
+	border:1px solid red;
+}
+
+.links-column{
+	
 }
