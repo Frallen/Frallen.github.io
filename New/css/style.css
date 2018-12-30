@@ -342,8 +342,9 @@ font-family: "Varela Round",sans-serif;
 .Form-email input{
 	border-radius: 25px;
 	border: 1px solid #cbcbce;
-
-	padding: 18px 300px 18px 26px;
+height: 50px;
+width:500px;
+	padding: 18px 25px;
 	font-weight: bold;
 	font-size: 16px;
 	font-family: "Lato",serif;
@@ -359,27 +360,44 @@ font-family: "Varela Round",sans-serif;
 	font-family: "Lato",serif;
 }
 
-.Send{
+.Send1{
 	color: #fff;
 	border-radius: 21px;
 	background-color: #6fc754;
-	padding: 15px 54px 15px 30px;
+	padding: 13px 55px 14px 34px;
 	font-size: 16px;
 	text-transform: capitalize;
 	outline: none;
 	cursor: pointer;
 	display: inline-block;
+	position: relative;
+left:168px;
+bottom: 48px;
+	
+}
 
 
-
+.Send2{
+	color: #fff;
+	border-radius: 21px;
+	background-color: #6fc754;
+	padding: 14px 34px;
+	font-size: 16px;
+	text-transform: capitalize;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+left:174px;
+bottom: 48px;
 	
 }
 
 
 .second::before{
 	position: relative;
- left:135px;
- top: -53px;
+ left:140px;
+ top: -48px;
 
  color: #fff;
 }
@@ -654,7 +672,6 @@ font-family: "Varela Round",sans-serif;
 .footer-left{
 	float: left;
 	width: 270px;
-	border: 1px solid red;
 	margin-top: 90px;
 }
 .footer-right{
@@ -712,9 +729,43 @@ font-family: "Varela Round",sans-serif;
 	position: relative;
 	left:20px;
 	top:15px;
-	border:1px solid red;
 }
 
 .links-column{
-	
+	display: inline-block;
+	margin-right: 100px;
+	height: 167px;
+}
+
+.links-column:nth-child(2n){
+	margin-right: 60px;
+}
+
+.links-column a{
+	text-decoration: none;
+	color: #8c8f94;
+	font-size: 16px;
+display: block;
+}
+
+
+.rect4{
+	outline: 1px solid #f4f4f4;
+	margin-top: 125px;
+}
+
+.copryright{
+	margin-top: 30px;
+}
+
+.copryright p{
+position: relative;
+top: 44px;
+display:inline-block;
+
+left:75%;
+}
+
+.copryright img{
+	margin-left: 90%;
 }
