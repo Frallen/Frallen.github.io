@@ -660,6 +660,7 @@ box-shadow: 0 30px 50px rgba(0,0,0,0.7);
 
 .modal-content-show{
 	display:block;
+	animation: bounce 0.9s;
 }
 
 .modal-content-close::before,
@@ -800,7 +801,20 @@ box-shadow: 0 30px 50px rgba(0,0,0,0.7);
 	display: none;
 }
 
-
+@keyframes bounce{
+	0% {
+		transform: translateY(-2000px);
+	}
+	70%{
+		transform: translateY(30px);
+	}
+	90%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
 
 /*
 .modal-overlay{
