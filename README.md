@@ -7,7 +7,7 @@ Frallen.github.io/Luis
 
 Frallen.github.io/New
 
-Frallen.github.io/ners
+Frallen.github.io/nerds
 
 The layout on which I studied:
 
