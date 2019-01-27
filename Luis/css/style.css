@@ -414,9 +414,10 @@ font-size: 30px;
 	height: 58px;
 }
 
-.Sayhi input:last-child{
+.Sayhi textarea{
 	width: 770px;
 	height: 208px;
+	padding: 25px 10px;
 }
 
 .send{
