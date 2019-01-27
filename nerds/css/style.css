@@ -65,11 +65,18 @@ body,header{
      padding-left:50px; 
 }
 
+.fa-shopping-basket{
+ font-size: 14px;
+ position: relative;
+ color:#a6a6a6;
+top:-61px;
+left:800px;
+ 
+}
 
 .logo img{
     position: relative;
- 
-    margin-top:-30px;
+margin-top:-30px;
 }
 
 
@@ -127,10 +134,15 @@ width: 400px;
     margin-top:80px;
     margin-bottom: 80px;
     width: 240px;
-    display: inline-table;
+    display: inline-block;
     margin-right:55px;
 
 }
+
+.things-choose:last-child{
+    margin-right: 0px;
+}
+
 
 .things-choose h2{
     font-size: 18px;
@@ -162,6 +174,7 @@ width: 400px;
 
 .buttonsite:focus{
     background: #d6494d;
+   /* animation:bounce 0.8s;*/
 }
 
 .buttonapp{
@@ -224,28 +237,51 @@ background: #01a25e;
 }
 
 .about-right h2{
-    margin-top: 50px;
-    padding: 0 15px;
+    overflow: hidden;
     font-size: 16px;
-    text-transform: uppercase;
-    line-height: 9px;
-    position: relative;
-	
+    color:#000;
     text-align: center;
-    z-index: 2;
-    background: #fff pepeat;
+    margin-top:40px;
+}
+
+.about-right h2::after,.about-right h2::before{
+    content: '';
+
+    /* делаем линию строчно-блочной */
+    display: inline-block;
+  
+    /* выравниваем вертикально по середине */
+    vertical-align: middle;
+  
+    /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+    box-sizing: border-box;
+  
+    /* установка ширины в 100% делает линию равной ширине тега заголовка
+    ** благодаря этому линия заполнит все свободное пространство
+    ** слева и справа от текста
+    */
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+ /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+    border: solid #FFF;
+  border-width: 0 10px;
+}
+.about-right h2::before{
+    margin-left:-100%;
 }
 .about-right h2::after{
-    content: "";
-	display: block;
-    position: relative;
-   
-	top:-5px;
-	z-index: 1;
-	border-bottom: 2px solid #eeeeee;
+    margin-right: -100%;
 }
+
 .about-right h3{
     margin-top: 60px;
+    font-size: 16px;
+    line-height: 22px;
+    color:#283136;
+    text-transform: uppercase;
 }
 
 
@@ -299,20 +335,22 @@ background: #01a25e;
     height: 417px;
     background: url("../img/map.jpg") no-repeat center;
     margin: 80px auto;
+    width: 100%;
 }
 
 .address{
     background: #fff;
     height: 240px;
     width: 250px;
-    position: relative;
-    left: 350px;
-    top:90px;
+    position: absolute;
+    left: 50%;
+    margin-left: -440px;
+    top:1830px;
    
 }
 
 .address h2{
-padding: 34px 20px 0px;
+padding: 10px 20px 0px;
 font-size: 16px;
 line-height: 33px;
 }
@@ -327,6 +365,7 @@ line-height: 33px;
 .address a{
     position: relative;
     left: 20px;
+    padding-bottom: 25px; 
     display:inline-block;
     text-decoration: none;
     font-size: 12px;
@@ -343,7 +382,7 @@ line-height: 33px;
 }
 
 footer{
-    height:75px;
+    height:219px;
 }
 
 .social-block{
@@ -352,9 +391,9 @@ footer{
 }
 
 .social{
-display: inline-block;
+display: inline-table;
     width: 60px;
-    height: 65px;
+    height: 60px;
     border-radius: 150px;
     background-color: #e1e1e1;
     margin-right: 30px;
@@ -364,7 +403,7 @@ display: inline-block;
     color: #fff;
     text-align: center;
     position: relative;
-    left: 20px;
+    left: 22px;
     top:20px;
     
 }
@@ -385,4 +424,161 @@ line-height: 36px;
     margin-top: -15px;
     line-height: 22px;
 }
+
+
+
+
+.modal-content{
+position: absolute;
+width: 630px;
+height: 416px;
+background: #fff;
+top:1700px;
+left: 50%;
+margin-left: -320px;
+display: none;
+animation: leftmove 0.8s;
+
+box-shadow:  0 10px 20px 10px #999690;
+}
+
+.modal-content-block{
+   margin:80px 90px 50px 80px; 
+}
+
+.modal-content-block p{
+    font-size: 16px;
+    color: #000;
+    
+}
+.name-p{
+    position: absolute;
+    top: 35px;
+}
+.email-p{
+    position: absolute;
+    left: 310px;
+    top:35px;
+}
+.letter-p{
+    position: absolute;
+   top: 130px;
+}
+
+
+.modal-content-block a{
+    text-decoration: none;
+    text-transform: uppercase;
+display: block;
+color: #fff;
+background-color: #fb565a;
+padding: 15px 195px;
+border-radius: 2px;
+text-align: center;
+font-size: 12px;
+line-height: 18px;
+margin-top:20px;
+}
+
+.modal-content-show{
+    display:block;
+}
+
+
+.send-message input{
+   box-sizing: border-box;
+   
+    width: 217px;
+   padding: 12px 12px;
+   border-radius: 2px;
+   margin-bottom: 48px;
+   outline: none;
+   border: 2px solid #d7dcde;
+   color: #000;
+   font-size: 12px;
+   line-height: 18px;
+}
+.send-message input[type=text]{/*ДЛЯ ОБРАЩЕНИЯ К КОНКРЕТНОМУ ИНПУТУ*/
+    margin-right: 20px;
+    
+}
+/*Пример дополнительного обращения
+.send-message input[type=email]{ 
+margin-right: 0px; 
+}*/
+.send-message textarea{
+    width: 425px;
+    height: 115px;
+    padding: 12px 15px;
+
+    resize: none;
+    outline: none;
+    border: 2px solid #d7dcde;
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/*КРЕСТИК ЧЕРЕЗ СПАН*/
+.close{/*СПАНОВЫЙ БЛОК КРУЖОК*/
+   position: absolute;
+   background-color: #fb565a;
+   width:42px;
+   height:42px;
+   border-radius: 20px;
+   top:6px;
+   left:583px;
+   cursor: pointer;
+   
+}
+
+.close::after,.close::before{
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    height: 20px;
+    width: 4px;
+    background-color: #fff;
+    content: "";
+}
+
+.close::after{
+    transform: rotate(-45deg);
+}
+.close::before{
+    transform: rotate(45deg);
+}
+
+
+
+.send-message p{
+    position: absolute;
+}
+
+.send-message input:last-child{
+    width: 480px;
+    height: 111px;
+    margin-right: 0;
+}
+
+
+
+
+@keyframes leftmove{
+    0%{
+        transform:translateX(-500px);
+    }
+   
+    80%{
+        transform:translateX(30px);
+    }
+
+    90%{
+        transform:translateX(10px);
+    }
+   100%{
+        transform:translateX(0);
+    }
+}
+
 
