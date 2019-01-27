@@ -408,7 +408,7 @@ font-size: 30px;
 .Sayhi input{
 	display: inline-block;
 	box-sizing: border-box;
-	
+	outline: none;
 	margin-bottom: 30px;
 	width: 373px;
 	height: 58px;
@@ -418,6 +418,8 @@ font-size: 30px;
 .Sayhi input[type=text]{
 	margin-right: 30px;
 }
+
+
 
 .Sayhi textarea{
 	width: 770px;
@@ -435,6 +437,7 @@ font-size: 30px;
 	color: #4d4d4d;
 	font-family: "Asap Medium",sans-serif;
 	
+	margin-top: 30px;
 }
 
 .send:hover{
@@ -461,7 +464,7 @@ font-size: 30px;
 	
 	margin:0px auto;
 	position: relative;
-	top: 40px;
+	top: 26px;
 	width: 247px;
 	color: #fff;
 	font-size: 16px;
@@ -472,7 +475,7 @@ font-size: 30px;
 .sochial{
 	
 position: relative;
-top: 40px;
+top: 25px;
 	float: left;
 	
 }
@@ -501,10 +504,11 @@ margin-right: 9px;
 	background-color:#fff;
 	color: #4d4d4d;
 	
+position: absolute;
+top:5750px;
+left:1400px;
 
-float: right;
-margin-right: 30px;
-margin-top: -200px;
+outline: none;
 font-size: 24px;
 display: block;
 }
