@@ -35,7 +35,6 @@ body,header{
     height: 83px;
 
 }
-
 .main-navigation ul{
     list-style: none;
     padding: 0;
@@ -140,7 +139,7 @@ width: 400px;
 }
 
 .things-choose:last-child{
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 
@@ -350,7 +349,7 @@ background: #01a25e;
 }
 
 .address h2{
-padding: 10px 20px 0px;
+padding: 10px 20px 0;
 font-size: 16px;
 line-height: 33px;
 }
@@ -425,21 +424,18 @@ line-height: 36px;
     line-height: 22px;
 }
 
-
-
-
 .modal-content{
-position: absolute;
+position:absolute;
 width: 630px;
 height: 416px;
 background: #fff;
-top:1700px;
+top:220%;
 left: 50%;
 margin-left: -320px;
 display: none;
 animation: leftmove 0.8s;
 
-box-shadow:  0 10px 20px 10px #999690;
+box-shadow:  0 11px 20px 10px #999690;
 }
 
 .modal-content-block{
