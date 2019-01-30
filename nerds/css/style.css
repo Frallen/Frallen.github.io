@@ -425,21 +425,22 @@ line-height: 36px;
 }
 
 .modal-content{
-position:absolute;
+position: fixed;
 width: 630px;
 height: 416px;
 background: #fff;
-top:220%;
+top:13%;
 left: 50%;
 margin-left: -320px;
-display: none;
+display:none;
 animation: leftmove 0.8s;
 
 box-shadow:  0 11px 20px 10px #999690;
 }
 
 .modal-content-block{
-   margin:80px 90px 50px 80px; 
+   margin:25px 90px 50px 80px; 
+  
 }
 
 .modal-content-block p{
@@ -448,17 +449,21 @@ box-shadow:  0 11px 20px 10px #999690;
     
 }
 .name-p{
-    position: absolute;
-    top: 8%;
+    display:inline-block;
+    margin-right: 162px;
+    
 }
 .email-p{
-    position: absolute;
-    left: 51%;
-    top:8%;
+    
+    display:inline-block;
+   
 }
 .letter-p{
-    position: absolute;
-   top: 30%;
+   display:inline-block;
+   position: relative;
+   top: 95px;
+   right: 335px;
+   
 }
 
 
