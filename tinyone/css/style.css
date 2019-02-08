@@ -1,0 +1,164 @@
+.bg-nav{
+    background-color: #fcdb00 !important;
+}
+
+.bg-head{
+    background-color: #fcdb00;
+    
+}
+
+html,body{
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+h1{
+    font-weight:700 !important;
+    color:#010101 !important;
+}
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+
+.logo-name{
+    font-weight:700 !important;
+    font-size: 30px;
+}
+
+.logo-name-ipad{
+    color: #fcdb00;
+    font-weight:700 !important;
+    font-size: 30px;
+}
+
+.xt{
+    
+margin-left: 16%;
+}
+
+
+.screen img{
+    margin-right: 10px;
+}
+
+.ipad{
+    border-radius: 6%;
+    height: 472px;
+    width: 317px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.screen{
+    width: 290px;
+    height: 383px;
+    position: relative;
+    top:45px;
+    background: #000;
+}
+
+.logo-name-ipad{
+    margin:0 70px;
+    position: relative;
+    top:160px;
+}
+
+.menu-a{
+    font-weight:700 !important;
+    color:#010101 !important;
+ font-size: 22px;
+}
+
+
+.nav-item{
+    margin-right: 70px !important;
+}
+
+.nav-item:last-child{
+    margin-right: 0 !important;
+}
+
+
+
+
+.head-text h1{
+    font-size: 32px;
+}
+
+.head-text h4{
+    
+    color:#010101 !important;
+    font-size: 20px;
+}
+ p{
+    font-size: 16px !important;
+    color: #313841 !important;   
+}
+
+.head-text img{
+    padding-right: 38px;
+}
+
+.mb{
+    margin-bottom: 100px;
+}
+
+
+.hl{
+   
+margin-top: 144px;
+}
+
+.features{
+   margin-bottom: 150px;
+}
+
+
+.feautres-hello{
+    margin-top: 150px;
+    
+}
+
+.feautres-hello p{
+    color:#313841 !important;
+    font-size: 20px !important;
+
+}
+
+
+.features-item{
+    margin-top: 90px;
+}
+
+.footer {
+    
+   
+    background-color: #010101;
+}
+
+
+
+.footer .feautres-hello h1{
+   
+ color:#fcdb00 !important;
+}
+.footer .feautres-hello p{
+    color:#898989 !important;
+    font-size: 20px !important;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.decorfooter p,.decorfooter a{
+ color: #fff !important;
+}
+
+.decorfooter{
+    margin-bottom: 140px;
+}
