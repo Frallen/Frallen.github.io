@@ -9,7 +9,7 @@ Frallen.github.io/New
 
 Frallen.github.io/nerds
 
-Frallen.github.io/ninyone
+Frallen.github.io/tinyone
 
 The layout on which I studied:
 
