@@ -1,18 +1,6 @@
 # MY PORTFOLIO
-Now i have 5 projcects:
-
-Frallen.github.io/Lian
-
-Frallen.github.io/Luis
-
-Frallen.github.io/New
-
-Frallen.github.io/nerds
+Now i have 2 projcects:
 
 Frallen.github.io/tinyone
 
 Frallen.github.io/Bukee
-
-The layout on which I studied:
-
-Frallen.github.io/barbershop
