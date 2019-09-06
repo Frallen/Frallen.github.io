@@ -1,5 +1,5 @@
 # MY PORTFOLIO
-Now i have 8 projcects:
+Now i have 8 projects:
 
 Html+Css(Scss)+js(JQerry):
 
